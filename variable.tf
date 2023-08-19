@@ -1,6 +1,9 @@
 variable "rgname" {}
 variable "nsg1name" {}
 variable "vnet1name" {}
+variable "interface_name" {}
+variable "nsgrule1name" {}
+variable "devpip-name" {}
 variable "location" {
   description = "region name to deploy the resources"
   default     = "EastUS"
